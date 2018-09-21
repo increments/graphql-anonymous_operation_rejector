@@ -1,5 +1,11 @@
 # Graphql::AnonymousOperationRejector
 
+[![Gem](https://img.shields.io/gem/v/graphql-anonymous_operation_rejector.svg)](https://rubygems.org/gems/graphql-anonymous_operation_rejector)
+[![Build Status](https://travis-ci.org/increments/graphql-anonymous_operation_rejector.svg?branch=master)](https://travis-ci.org/increments/graphql-anonymous_operation_rejector)
+[![Code Climate](https://codeclimate.com/github/increments/graphql-anonymous_operation_rejector/badges/gpa.svg)](https://codeclimate.com/github/increments/graphql-anonymous_operation_rejector)
+[![Test Coverage](https://codeclimate.com/github/increments/graphql-anonymous_operation_rejector/badges/coverage.svg)](https://codeclimate.com/github/increments/graphql-anonymous_operation_rejector/coverage)
+[![license](https://img.shields.io/github/license/increments/graphql-anonymous_operation_rejector.svg)](https://github.com/increments/graphql-anonymous_operation_rejector/blob/master/LICENSE)
+
 An GraphQL analyzer to reject anonymous operation.
 
 ## Installation
