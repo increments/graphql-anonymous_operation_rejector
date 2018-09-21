@@ -1,4 +1,4 @@
-# Graphql::AnonymousOperationRejector
+# GraphQL::AnonymousOperationRejector
 
 [![Gem](https://img.shields.io/gem/v/graphql-anonymous_operation_rejector.svg)](https://rubygems.org/gems/graphql-anonymous_operation_rejector)
 [![Build Status](https://travis-ci.org/increments/graphql-anonymous_operation_rejector.svg?branch=master)](https://travis-ci.org/increments/graphql-anonymous_operation_rejector)
