@@ -42,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/yuku-t/graphql-anonymous_operation_rejector. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/increments/graphql-anonymous_operation_rejector. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -50,4 +50,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Graphql::AnonymousOperationRejector project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/yuku-t/graphql-anonymous_operation_rejector/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Graphql::AnonymousOperationRejector project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/increments/graphql-anonymous_operation_rejector/blob/master/CODE_OF_CONDUCT.md).
