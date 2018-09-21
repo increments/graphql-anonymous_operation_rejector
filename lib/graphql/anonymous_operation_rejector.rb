@@ -1,4 +1,4 @@
-require "graphql/anonymous_operation_rejector/version"
+require 'graphql/anonymous_operation_rejector/version'
 
 module Graphql
   module AnonymousOperationRejector

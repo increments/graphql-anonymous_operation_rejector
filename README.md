@@ -1,15 +1,13 @@
 # Graphql::AnonymousOperationRejector
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/graphql/anonymous_operation_rejector`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+An GraphQL analyzer to reject anonymous operation.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'graphql-anonymous_operation_rejector'
+gem 'graphql-anonymous_operation_rejector', require: 'graphql/anonymous_operation_rejector'
 ```
 
 And then execute:
@@ -22,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```rb
+class MySchema < GraphQL::Schema
+  query_analyzer GraphQL::AnonymousOperationRejector.new
+end
+```
+
+Read also: [GraphQL - Ahead-of-Time Analysis](http://graphql-ruby.org/queries/analysis.html)
 
 ## Development
 
