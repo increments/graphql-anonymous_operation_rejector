@@ -29,7 +29,18 @@ Or install it yourself as:
 ```rb
 class MySchema < GraphQL::Schema
   query_analyzer GraphQL::AnonymousOperationRejector.new
+  query Types::Query
 end
+```
+
+Now `MySchema` accepts GraphQL queries with operation name only:
+
+```rb
+MySchema.execute('query { hello }').to_h
+#=> { "error": [{ "message" => "Anonymous operation is not allowed. Please add operation name to your query." }]}
+
+MySchema.execute('query thisIsOperationName { hello }').to_h
+#=> { "data": { "hello" => "world" } }
 ```
 
 Read also: [GraphQL - Ahead-of-Time Analysis](http://graphql-ruby.org/queries/analysis.html)
